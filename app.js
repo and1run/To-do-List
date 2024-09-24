@@ -4,7 +4,7 @@ const addButton = document.getElementById("add");
 const allButton = document.getElementById("all");
 const doneButton = document.getElementById("done");
 const undoneButton = document.getElementById("undone");
-showTask();
+window.onload = showTask();
 
 const allElemnts = document.querySelectorAll("li");
 
